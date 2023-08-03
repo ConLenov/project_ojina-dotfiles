@@ -1,0 +1,23 @@
+// -*- mode: json -*-
+
+{
+	"layer": "top",
+	"position": "left",
+
+	"modules-left": [
+		
+	],
+	"modules-center": [
+		"sway/workspaces"
+	],
+	"modules-right": [
+		
+	],
+	
+	"sway/workspaces": {
+		"disable-scroll": false,
+		"format": "{name}"
+	},
+
+		"on-click": "exec killall -SIGUSR1 waybar"
+}

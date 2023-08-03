@@ -1,0 +1,8 @@
+mode=drun
+allow_images=true
+iamge_size=12
+term=xfce4-terminal
+insensitive=true
+location=center
+no_actions=true
+prompt=Search
